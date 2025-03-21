@@ -1,5 +1,5 @@
-# VR_Project1_AnukritiSingh_MS2024504
-# Face Mask Segmentation
+## VR_Project1_AnukritiSingh_MS2024504
+## Face Mask Segmentation
 
 ## Overview
 This project explores face mask segmentation using both traditional image processing techniques and deep learning-based approaches. The goal is to compare different segmentation methods and evaluate their performance.
@@ -8,12 +8,12 @@ This project explores face mask segmentation using both traditional image proces
 
 The dataset consists of two main folders; however, only **Folder 1** was used for training and evaluation due to the lack of ground truth in **Folder 2**. The dataset was split into **80% training** and **20% testing**.
 ├─ /1
-│　├─ face_crop
-│　└─ face_crop_segmentation
-│　└─ img
-│  └─ dataset.csv
+│　├─ face_crop              # Contains cropped face images
+│　├─ face_crop_segmentation # Contains segmented face images
+│　├─ img                    # Raw images
+│　└─ dataset.csv            # CSV file containing dataset metadata
 ├─ /2 (Not Used)
-│　├─ img
+│　└─ img                    # Unused image directory
 
 ## Methods Used
 ### Traditional Methods
