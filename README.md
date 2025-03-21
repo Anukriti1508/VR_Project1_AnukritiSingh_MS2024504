@@ -7,6 +7,8 @@ This project explores face mask segmentation using both traditional image proces
 ## Dataset Structure
 
 The dataset consists of two main folders; however, only **Folder 1** was used for training and evaluation due to the lack of ground truth in **Folder 2**. The dataset was split into **80% training** and **20% testing**.
+
+```
 ├─ /1
 │　├─ face_crop              # Contains cropped face images
 │　├─ face_crop_segmentation # Contains segmented face images
@@ -14,6 +16,7 @@ The dataset consists of two main folders; however, only **Folder 1** was used fo
 │　└─ dataset.csv            # CSV file containing dataset metadata
 ├─ /2 (Not Used)
 │　└─ img                    # Unused image directory
+```
 
 ## Methods Used
 ### Traditional Methods
