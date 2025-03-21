@@ -1,4 +1,4 @@
-## VR_Project1_AnukritiSingh_MS2024504
+#### VR_Project1- Anukriti Singh, Susmita Roy, Mohd. Danish Rabbani
 ## Face Mask Segmentation
 
 ## Overview
@@ -36,10 +36,10 @@ The dataset consists of two main folders; however, only **Folder 1** was used fo
 ## Results
 | Method                  | Accuracy | Intersection over Union     | Dice Coefficient|
 |-------------------------|--------- |---------------------------- |-----------------|
-| Region Growing          | XX%      | XX%                         | XX%             |
-| Edge Contour            | XX%      | XX%                         | XX%             |
-| Thresholding Segment.   | XX%      | XX%                         | XX%             |
-| UNet                    | XX%      | XX%                         | XX%             |
+| Region Growing          | 0.6730   | 0.2755                      | 0.3652          |
+| Edge Contour            | 0.6305   | 0.1563                      | 0.2552          |
+| Thresholding Segment.   | 0.5291   | 0.2909                      | 0.4052          |
+| UNet                    | 0.6119   | 0.8944                      | 0.9390          |
 
 ## Conclusion
 - Traditional methods work well for simple cases but struggle with complex backgrounds.
@@ -51,10 +51,7 @@ The dataset consists of two main folders; however, only **Folder 1** was used fo
     ```bash
     pip install torch torchvision numpy opencv-python matplotlib tqdm
     ```
-2. Run the segmentation script:
-    ```bash
-    python segmentation.py
-    ```
+2. Run the segmentation.ipynb notebook
 
 ## References
 - UNet Paper: [Ronneberger et al., 2015](https://arxiv.org/abs/1505.04597)
