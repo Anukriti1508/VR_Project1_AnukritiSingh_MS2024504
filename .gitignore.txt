@@ -1,2 +1,0 @@
-segmentation.ipynb:Zone.Identifier
-.ipynb_checkpoints
