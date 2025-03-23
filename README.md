@@ -156,6 +156,12 @@ The dataset consists of two main folders; however, only **Folder 1** was used fo
 ### Deep Learning Method
 - **UNet**: A fully convolutional neural network designed for pixel-wise segmentation, trained to accurately segment face masks.
 
+#### MODEL PARAMETERS
+    Learning Rate: 0.0005
+    Batch Size: 16
+    Optimizer: Adam
+    Loss: BCE + Dice Loss
+
 ### Challenges Faced
 - Traditional methods require fine-tuning of parameters for different lighting conditions.
 - Region growing and edge detection methods may fail on complex backgrounds.
